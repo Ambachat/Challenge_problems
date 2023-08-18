@@ -4,6 +4,10 @@
 Created on Tue Aug 15 19:52:20 2023
 
 @author: ambarish
+We are given a mapping like 1-> ab, 2->cde, 3->fgh, ....., 9->xyz like a keypad phone.
+Now if any string is given, we need to check how many substrings can be made from that, including that string itself,
+such that the sum of the values of the letters constituting that substring, is divisible by the length of the 
+substring. Those substrings are extraordinary substrings and we need to find that number given the string.
 """
 
 def is_extraordinary(substring, mapping):
