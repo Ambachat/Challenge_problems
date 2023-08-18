@@ -1,3 +1,6 @@
+''' Given Rest APIs for food outlets, need to find out the contents of the page of that particular outlet, 
+which is the most top-rated in the given city.'''
+
 import requests
 
 def getTopRatedFoodOutlets(city):
