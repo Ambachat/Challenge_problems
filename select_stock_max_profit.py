@@ -4,6 +4,17 @@
 Created on Tue Aug 15 20:10:03 2023
 
 @author: ambarish
+
+An investor saved some money and wants to invest in stock. They want to buy at most one share per company from 
+a number of stocks. Total invested cannot exceed the saving.  
+He has the future values of those stocks after one year. 
+We need to write a python code to determine max profit that can be earned after a year. 
+Input for python function is the saving amount, current value list and future values list.
+Example is
+Saving=250
+Current_values=[175, 133,109,210,97]
+Future_values=[200,125,128,228,133]
+Total profit is (133-97)+(128-109)=55
 """
 #################################### New ####################################
 
